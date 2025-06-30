@@ -5,6 +5,7 @@
 [![CI status](https://github.com/emivine/qwas-qc-ai-report/actions/workflows/ci.yml/badge.svg)](https://github.com/emivine/qwas-qc-ai-report/actions)
 Licensed under the MIT License
 
+* **Reminder** — For researchers with non-genetic/biological backgrounds, please remember to read the another instructions as well - Instructions-BeforeYouStart.md
 ---
 
 ## ✨ Why use this repo?
@@ -32,10 +33,10 @@ Licensed under the MIT License
 │   └── 09_report.py          # Generate AI-powered report (Jinja2 + OpenAI)
 ├── reports_template/     # Markdown ↔ PDF template & prompt
 ├── data/                 # Example chr22 VCF & toy GWAS stats
-├── results/              # All pipeline outputs (metrics, plots, flowchart, reports)
-├── tests/                # Pytest unit / workflow tests
+├── prompts/              # System prompts used for LLM
+├── results/              # All pipeline outputs (metrics, plots, flowchart)
+├── reports/              # Final report
 ├── environment.yml       # Conda definition
-├── Dockerfile            # (Optional) Container build
 └── README.md
 ```
 
@@ -154,7 +155,14 @@ All results and the final report will be in the `results/` and `reports/` direct
 
 ## 📑 Example report
 
-See `docs/` for sample reports and figure outputs.
+See `reports/` for sample reports.
+![image](https://github.com/user-attachments/assets/34d045b9-edaf-4647-8b27-1ae079e8592b)
+![image](https://github.com/user-attachments/assets/6f7b3b60-9cbf-4d1b-aad8-8ae332f17b9b)
+![image](https://github.com/user-attachments/assets/7711fd16-ef4d-44f4-9f58-48925e51dc2d)
+![image](https://github.com/user-attachments/assets/affe2f65-ab3d-4b10-bf10-375d06d35557)
+
+
+
 
 ---
 
